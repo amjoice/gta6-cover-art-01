@@ -1,3 +1,8 @@
+// Neon Shore Cover Studio: the app in app/ is a multi-panel GTA-poster-style
+// cover maker — six layouts, five colour grades, Anton + Pacifico lettering,
+// per-panel crop and position, undo/redo, and PNG export in 1080x1080,
+// 1080x1350 and 1920x1080. The program below only hands app/ and
+// screenshots/ in and writes the dossier; it draws nothing itself.
 // A working gta6-cover-art-01 entry (Node 22, standard library only): the app is this directory's app/ folder, plain
 // static files a desktop browser loads offline (app/index.html and its ES modules, no library and no network
 // request), and the program hands it in. It copies app/ and screenshots/ from beside this file to /output and writes
